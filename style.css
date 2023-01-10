@@ -1,0 +1,57 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg-stars.svg');
+    background-color: hsl(235, 16%, 14%);
+    overflow-x: hidden;
+    color: hsl(345, 95%, 68%);
+    font-size: 1.2rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border-style: solid;
+    border-width: thin;
+    border-color: transparent;
+    max-width: 100%;
+    width: 100vw;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.inputDateTime{
+    margin-top: 10%;
+}
+p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.Social{
+    display: flex;
+    padding-left: 15%;
+    background-image: url('images/pattern-hills.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.userInput{
+    display: flex;
+    justify-content: center;
+}
+.specific{
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+.dataCount{
+    display: flex;
+    justify-content: center;
+}
+.flip{
+    width: 15%;
+}
